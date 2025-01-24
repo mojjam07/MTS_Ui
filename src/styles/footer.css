@@ -1,0 +1,22 @@
+.footer-section {
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text */
+  bottom: 0;
+  text-align: center;
+}
+
+.footer-section a {
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #ffd700; /* Gold color on hover */
+}
+
+.footer-section .social-icons a {
+  font-size: 1.2rem;
+}
+
+.footer-section hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}

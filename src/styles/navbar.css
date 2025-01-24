@@ -1,0 +1,73 @@
+/* Navbar container styling */
+.navbar-custom {
+  background-color: #007bff; /* Custom background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1020; /* Ensures the navbar is above other elements */
+}
+
+/* Brand logo */
+.navbar-brand .logo {
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+}
+
+/* Navbar links */
+.navbar-custom .nav-link {
+  color: white; /* White text for links */
+  margin-right: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffd700; /* Gold color on hover */
+  text-decoration: none;
+}
+
+/* Navbar toggle button */
+.navbar-custom .navbar-toggler {
+  border: none;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Form switch for dark mode */
+#dark-mode-switch {
+  color: white;
+  font-weight: bold;
+}
+
+#dark-mode-switch .form-check-label {
+  margin-left: 8px;
+}
+
+#dark-mode-switch .form-check-input:checked {
+  background-color: #ffd700; /* Switch color when active */
+  border-color: #ffd700;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 992px) {
+  .navbar-custom .navbar-brand {
+    margin-left: 0;
+  }
+
+  .navbar-custom .nav-link {
+    color: white;
+    margin-right: 0;
+    margin-bottom: 10px; /* Space out links on smaller screens */
+  }
+
+  .navbar-custom .form-check {
+    margin: 10px 0;
+  }
+}
