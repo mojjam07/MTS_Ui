@@ -5,7 +5,7 @@ import Navbar from "./components/navbar";
 import HeroSection from "./components/heroSection";
 import FooterSection from "./components/footer";
 import ScheduleSection from "./components/scheduleSection";
-import AboutSection from "./components/AboutSection";
+import AboutSection from "./components/aboutSection";
 import ServiceSection from "./components/serviceSection";
 import PortfolioSection from "./components/portfolioSection";
 import ContactSection from "./components/contactSection";

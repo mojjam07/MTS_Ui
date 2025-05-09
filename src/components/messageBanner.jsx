@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/MessageBanner.css";
+import "../styles/messageBanner.css";
 
 const MessageBanner = () => {
   return (
